@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="DbxWvzwIJ3M81AVGVEAH">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DZsf22QWVPK6g-7_vooH-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Data_Lake_Store_Gen1.svg;" vertex="1" parent="1">
+          <mxGeometry x="177.69" y="352.5" width="104.62" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="DZsf22QWVPK6g-7_vooH-2" value="DataLake&lt;div&gt;Storage Account&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="175" y="305" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DZsf22QWVPK6g-7_vooH-3" value="dlmeublatex2025" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="176.54" y="440" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DZsf22QWVPK6g-7_vooH-4" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Data_Factory.svg;" vertex="1" parent="1">
+          <mxGeometry x="400" y="350" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="DZsf22QWVPK6g-7_vooH-5" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/iot/Time_Series_Data_Sets.svg;" vertex="1" parent="1">
+          <mxGeometry x="610" y="352.5" width="65.88" height="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DZsf22QWVPK6g-7_vooH-6" value="ETL&lt;div&gt;Azure Data Factory&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="305" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DZsf22QWVPK6g-7_vooH-7" value="Database:&amp;nbsp;&lt;div&gt;SQL database&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="592.94" y="295" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DZsf22QWVPK6g-7_vooH-8" value="adf-meublatex-2025" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="437.5" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DZsf22QWVPK6g-7_vooH-9" value="db-meublatex-2025&lt;div&gt;2 schemas :&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ODS / DWH&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="562.94" y="437.5" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DZsf22QWVPK6g-7_vooH-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.007;entryY=0.506;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DZsf22QWVPK6g-7_vooH-4" target="DZsf22QWVPK6g-7_vooH-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DZsf22QWVPK6g-7_vooH-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.015;entryY=0.48;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DZsf22QWVPK6g-7_vooH-4" target="DZsf22QWVPK6g-7_vooH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
